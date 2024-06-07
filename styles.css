@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #f0f0f0;
+}
+.header {
+    background: #fff;
+    padding: 1px 0;
+}
+
+.container {
+	background: #f0f0f0;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.photo-entry {
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.photo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.photo-title {
+    font-weight: bold;
+}
+
+.photo-date {
+    opacity: 0.5;
+}
+
+.photo-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.photo-image img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.photo-description {
+    padding: 15px;
+    text-align: left;
+}
